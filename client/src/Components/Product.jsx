@@ -6,9 +6,9 @@ import {FaRupeeSign} from "react-icons/fa";
 
 function Product({product}) {
     return(
-        <Card className="my-3 p-3 rounded">
+        <Card className="my-3 p-3 card-tile product-tile">
             <Link to={"/product/"+product._id}>
-                <Card.Img src={product.image} variant="top" />
+                <Card.Img className="product-image" src={product.image} variant="top" />
             </Link>
             <Card.Body>
             <Link to={"/product/"+product._id} className="card-link-title">

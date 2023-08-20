@@ -1,0 +1,38 @@
+.car-image {
+  width: 85%;
+}
+
+.latest-products {
+  background-color: rgb(75, 75, 75);
+}
+
+.card-link-title {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.card-tile,
+.category-image {
+  transition: 1s ease;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.card-tile:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  transition: 0.5s ease;
+  box-shadow: 15px 16px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.category-image:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.category {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
