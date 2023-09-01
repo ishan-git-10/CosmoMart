@@ -13,7 +13,7 @@ function HomeScreen(){
     const {data: products, isLoading, error} = useGetProductsQuery();
     let productsList=[];
     let carProducts=[];
-    if(!isLoading){
+    if(!isLoading && !error){
     productsList= products;
     productsList=productsList.slice().reverse();
     carProducts = products;

@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 function Footer(){
     let currTime = new Date().getFullYear();
     return(
-        // <footer>
-        //     <p>CosmoMart ⓒ {currTime}</p>
-        // </footer>
         <footer className="bg-dark text-light pt-5 mt-5">
         <Container>
             <Row>

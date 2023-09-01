@@ -1,4 +1,4 @@
-import asyncHandler from "../middleware/asyncHandler.js";
+import asyncHandler from "express-async-handler";
 import Product from "../models/productModel.js";
 
 //@route  /api/products
@@ -111,7 +111,6 @@ const deleteProduct = asyncHandler(async (req, res) => {
 // @access  Private
 const createProductReview = asyncHandler(async (req, res) => {
   const { rating, comment } = req.body;
-  console.log(rating);
 
   const product = await Product.findById(req.params.id);
 
